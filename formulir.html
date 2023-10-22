@@ -1,0 +1,77 @@
+<!--
+    Nama : Novi Fitria Ramadhan
+    NIM : 121140078
+    Kelas : RC
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cssformulir.css">
+    <title> Pendaftaran </title>
+</head>
+<body>
+    <div class="container">
+        <header class="heading">
+            <h1> Pendaftaran Keanggotaan Perpustakaan </h1>
+            <div class="logo">
+                <ul>
+                    <li> <img src="Assets/kucing.jpg" alt="error"> </li>
+                </ul>
+            </div>
+        </header>
+        
+        <div class="content"> 
+            <form action="tabel.html" method="GET">
+                <div class="input">
+                    <label for="nama">Nama:</label>
+                    <input type="text" id="nama" name="nama" required>
+                    <br/> <br/>
+
+                    <label for="nim">NIM:</label>
+                    <input type="text" id="nim" name="nim" required>
+                    <br/> <br/>
+
+                    <label for="prodi">Program Studi:</label>
+                    <input type="text" id="prodi" name="prodi" required>
+                    <br/> <br/>
+                    
+                    <label for="tanggal-lahir">Tanggal Lahir:</label>
+                    <input type="date" id="tanggal-lahir" name="tanggal-lahir">
+                    <br/><br/>
+                    
+                    <label for="alamat">Alamat:</label>
+                    <textarea id="alamat" name="alamat"></textarea>
+                    <br/><br/>
+
+                    <label for="jenis-kelamin">Jenis Kelamin:</label> <br>
+                    <input type="radio" id="laki-laki" name="jenis-kelamin" value="Laki-laki" required> Laki-Laki <br>
+                    <input type="radio" id="perempuan" name="jenis-kelamin" value="Perempuan" required> Perempuan <br>
+                    <br/><br/>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br/><br/>
+
+                    <label for="sandi"> Kata Sandi : </label>
+                    <input type="password" id="sandi" name="sandi" required>
+                    <br/><br/>
+                </div>
+                    <button type="submit">Daftar</button>
+            </form>
+        </div>
+
+        <footer>
+            <div class="akhir">
+                <ul> 
+                    <li> <a href="https://wa.me/6281272061542"> Contact </a> </li>
+                    <li> <a href="https://instagram.com/noviiftr_?igshid=MzMyNGUyNmU2YQ=="> Instagram  </a> </li>
+                </ul>
+                <p> Copyright &copy;2023; Designed by <span class="designer"> Novi Fitria Ramadhan </span> </p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
